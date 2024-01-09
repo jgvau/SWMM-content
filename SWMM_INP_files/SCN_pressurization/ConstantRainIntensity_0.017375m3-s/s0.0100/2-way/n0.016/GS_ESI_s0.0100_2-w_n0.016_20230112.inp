@@ -1,0 +1,702 @@
+[TITLE]
+;;Project Title/Notes
+
+[OPTIONS]
+;;Option            	Value
+FLOW_UNITS          	CMS
+INFILTRATION        	HORTON
+FLOW_ROUTING        	DYNWAVE
+LINK_OFFSETS        	DEPTH
+MIN_SLOPE           	0
+ALLOW_PONDING       	NO
+SKIP_STEADY_STATE   	NO
+
+START_DATE          	10/31/2022
+START_TIME          	00:00:00
+REPORT_START_DATE   	10/31/2022
+REPORT_START_TIME   	00:00:00
+END_DATE            	10/31/2022
+END_TIME            	06:00:00
+SWEEP_START         	01/01
+SWEEP_END           	12/31
+DRY_DAYS            	0
+REPORT_STEP         	00:00:10
+WET_STEP            	00:05:00
+DRY_STEP            	01:00:00
+ROUTING_STEP        	0:00:01 
+RULE_STEP           	00:00:00
+
+INERTIAL_DAMPING    	NONE
+NORMAL_FLOW_LIMITED 	BOTH
+FORCE_MAIN_EQUATION 	H-W
+SURCHARGE_METHOD    	SLOT
+VARIABLE_STEP       	0.00
+LENGTHENING_STEP    	0
+MIN_SURFAREA        	1.167
+MAX_TRIALS          	8
+HEAD_TOLERANCE      	0.0015
+SYS_FLOW_TOL        	5
+LAT_FLOW_TOL        	5
+MINIMUM_STEP        	0.5
+THREADS             	6
+
+[EVAPORATION]
+;;Data Source   	Parameters
+;;--------------	----------------
+CONSTANT        	0.0
+DRY_ONLY        	NO
+
+[JUNCTIONS]
+;;Name          	Elevation 	MaxDepth  	InitDepth 	SurDepth  	Aponded   
+;;--------------	----------	----------	----------	----------	----------
+A00             	20.00     	10        	0         	0         	0         
+A01             	19.00     	10        	0         	0         	0         
+A02             	18.00     	10        	0         	0         	0         
+A03             	17.00     	10        	0         	0         	0         
+A04             	16.00     	10        	0         	0         	0         
+A05             	15.00     	10        	0         	0         	0         
+A06             	14.00     	10        	0         	0         	0         
+A07             	13.00     	10        	0         	0         	0         
+A08             	12.00     	10        	0         	0         	0         
+A09             	11.00     	10        	0         	0         	0         
+A10             	10.00     	10        	0         	0         	0         
+B00             	19.00     	10        	0         	0         	0         
+B01             	18.00     	10        	0         	0         	0         
+B02             	17.00     	10        	0         	0         	0         
+B03             	16.00     	10        	0         	0         	0         
+B04             	15.00     	10        	0         	0         	0         
+B05             	14.00     	10        	0         	0         	0         
+B06             	13.00     	10        	0         	0         	0         
+B07             	12.00     	10        	0         	0         	0         
+B08             	11.00     	10        	0         	0         	0         
+B09             	10.00     	10        	0         	0         	0         
+B10             	9.000     	10        	0         	0         	0         
+C00             	18.00     	10        	0         	0         	0         
+C01             	17.00     	10        	0         	0         	0         
+C02             	16.00     	10        	0         	0         	0         
+C03             	15.00     	10        	0         	0         	0         
+C04             	14.00     	10        	0         	0         	0         
+C05             	13.00     	10        	0         	0         	0         
+C06             	12.00     	10        	0         	0         	0         
+C07             	11.00     	10        	0         	0         	0         
+C08             	10.00     	10        	0         	0         	0         
+C09             	9.000     	10        	0         	0         	0         
+C10             	8.000     	10        	0         	0         	0         
+D00             	17.00     	10        	0         	0         	0         
+D01             	16.00     	10        	0         	0         	0         
+D02             	15.00     	10        	0         	0         	0         
+D03             	14.00     	10        	0         	0         	0         
+D04             	13.00     	10        	0         	0         	0         
+D05             	12.00     	10        	0         	0         	0         
+D06             	11.00     	10        	0         	0         	0         
+D07             	10.00     	10        	0         	0         	0         
+D08             	9.000     	10        	0         	0         	0         
+D09             	8.000     	10        	0         	0         	0         
+D10             	7.000     	10        	0         	0         	0         
+E00             	16.00     	10        	0         	0         	0         
+E01             	15.00     	10        	0         	0         	0         
+E02             	14.00     	10        	0         	0         	0         
+E03             	13.00     	10        	0         	0         	0         
+E04             	12.00     	10        	0         	0         	0         
+E05             	11.00     	10        	0         	0         	0         
+E06             	10.00     	10        	0         	0         	0         
+E07             	9.000     	10        	0         	0         	0         
+E08             	8.000     	10        	0         	0         	0         
+E09             	7.000     	10        	0         	0         	0         
+E10             	6.000     	10        	0         	0         	0         
+F00             	15.00     	10        	0         	0         	0         
+F01             	14.00     	10        	0         	0         	0         
+F02             	13.00     	10        	0         	0         	0         
+F03             	12.00     	10        	0         	0         	0         
+F04             	11.00     	10        	0         	0         	0         
+F05             	10.00     	10        	0         	0         	0         
+F06             	9.000     	10        	0         	0         	0         
+F07             	8.000     	10        	0         	0         	0         
+F08             	7.000     	10        	0         	0         	0         
+F09             	6.000     	10        	0         	0         	0         
+F10             	5.000     	10        	0         	0         	0         
+G00             	14.00     	10        	0         	0         	0         
+G01             	13.00     	10        	0         	0         	0         
+G02             	12.00     	10        	0         	0         	0         
+G03             	11.00     	10        	0         	0         	0         
+G04             	10.00     	10        	0         	0         	0         
+G05             	9.000     	10        	0         	0         	0         
+G06             	8.000     	10        	0         	0         	0         
+G07             	7.000     	10        	0         	0         	0         
+G08             	6.000     	10        	0         	0         	0         
+G09             	5.000     	10        	0         	0         	0         
+G10             	4.000     	10        	0         	0         	0         
+H00             	13.00     	10        	0         	0         	0         
+H01             	12.00     	10        	0         	0         	0         
+H02             	11.00     	10        	0         	0         	0         
+H03             	10.00     	10        	0         	0         	0         
+H04             	9.000     	10        	0         	0         	0         
+H05             	8.000     	10        	0         	0         	0         
+H06             	7.000     	10        	0         	0         	0         
+H07             	6.000     	10        	0         	0         	0         
+H08             	5.000     	10        	0         	0         	0         
+H09             	4.000     	10        	0         	0         	0         
+H10             	3.000     	10        	0         	0         	0         
+I00             	12.00     	10        	0         	0         	0         
+I01             	11.00     	10        	0         	0         	0         
+I02             	10.00     	10        	0         	0         	0         
+I03             	9.000     	10        	0         	0         	0         
+I04             	8.000     	10        	0         	0         	0         
+I05             	7.000     	10        	0         	0         	0         
+I06             	6.000     	10        	0         	0         	0         
+I07             	5.000     	10        	0         	0         	0         
+I08             	4.000     	10        	0         	0         	0         
+I09             	3.000     	10        	0         	0         	0         
+I10             	2.000     	10        	0         	0         	0         
+J00             	11.00     	10        	0         	0         	0         
+J01             	10.00     	10        	0         	0         	0         
+J02             	9.000     	10        	0         	0         	0         
+J03             	8.000     	10        	0         	0         	0         
+J04             	7.000     	10        	0         	0         	0         
+J05             	6.000     	10        	0         	0         	0         
+J06             	5.000     	10        	0         	0         	0         
+J07             	4.000     	10        	0         	0         	0         
+J08             	3.000     	10        	0         	0         	0         
+J09             	2.000     	10        	0         	0         	0         
+J10             	1.000     	10        	0         	0         	0         
+K00             	10.00     	10        	0         	0         	0         
+K01             	9.000     	10        	0         	0         	0         
+K02             	8.000     	10        	0         	0         	0         
+K03             	7.000     	10        	0         	0         	0         
+K04             	6.000     	10        	0         	0         	0         
+K05             	5.000     	10        	0         	0         	0         
+K06             	4.000     	10        	0         	0         	0         
+K07             	3.000     	10        	0         	0         	0         
+K08             	2.000     	10        	0         	0         	0         
+K09             	1.000     	10        	0         	0         	0         
+K10             	0.000000  	10        	0         	0         	0         
+
+[OUTFALLS]
+;;Name          	Elevation 	Type      	Stage Data      	Gated   	Route To        
+;;--------------	----------	----------	----------------	--------	----------------
+Outfall         	0         	FREE      	                	NO      	                
+
+[CONDUITS]
+;;Name          	From Node       	To Node         	Length    	Roughness 	InOffset  	OutOffset 	InitFlow  	MaxFlow   
+;;--------------	----------------	----------------	----------	----------	----------	----------	----------	----------
+100             	E06             	E07             	100.00    	0.016     	0         	0         	0         	0         
+101             	E07             	E08             	100.00    	0.016     	0         	0         	0         	0         
+102             	E08             	E09             	100.00    	0.016     	0         	0         	0         	0         
+103             	E09             	E10             	100.00    	0.016     	0         	0         	0         	0         
+121             	A00             	A01             	100.00    	0.016     	0         	0         	0         	0         
+122             	A01             	A02             	100.00    	0.016     	0         	0         	0         	0         
+123             	A02             	A03             	100.00    	0.016     	0         	0         	0         	0         
+124             	A03             	A04             	100.00    	0.016     	0         	0         	0         	0         
+125             	A04             	A05             	100.00    	0.016     	0         	0         	0         	0         
+126             	A05             	A06             	100.00    	0.016     	0         	0         	0         	0         
+127             	A06             	A07             	100.00    	0.016     	0         	0         	0         	0         
+128             	A07             	A08             	100.00    	0.016     	0         	0         	0         	0         
+129             	A08             	A09             	100.00    	0.016     	0         	0         	0         	0         
+130             	A09             	A10             	100.00    	0.016     	0         	0         	0         	0         
+131             	B00             	B01             	100.00    	0.016     	0         	0         	0         	0         
+132             	B01             	B02             	100.00    	0.016     	0         	0         	0         	0         
+133             	B02             	B03             	100.00    	0.016     	0         	0         	0         	0         
+134             	B03             	B04             	100.00    	0.016     	0         	0         	0         	0         
+135             	B04             	B05             	100.00    	0.016     	0         	0         	0         	0         
+136             	B05             	B06             	100.00    	0.016     	0         	0         	0         	0         
+137             	B06             	B07             	100.00    	0.016     	0         	0         	0         	0         
+138             	B07             	B08             	100.00    	0.016     	0         	0         	0         	0         
+139             	B08             	B09             	100.00    	0.016     	0         	0         	0         	0         
+140             	B09             	B10             	100.00    	0.016     	0         	0         	0         	0         
+141             	C00             	C01             	100.00    	0.016     	0         	0         	0         	0         
+142             	C01             	C02             	100.00    	0.016     	0         	0         	0         	0         
+143             	C02             	C03             	100.00    	0.016     	0         	0         	0         	0         
+144             	C03             	C04             	100.00    	0.016     	0         	0         	0         	0         
+145             	C04             	C05             	100.00    	0.016     	0         	0         	0         	0         
+146             	C05             	C06             	100.00    	0.016     	0         	0         	0         	0         
+147             	C06             	C07             	100.00    	0.016     	0         	0         	0         	0         
+148             	C07             	C08             	100.00    	0.016     	0         	0         	0         	0         
+149             	C08             	C09             	100.00    	0.016     	0         	0         	0         	0         
+150             	C09             	C10             	100.00    	0.016     	0         	0         	0         	0         
+151             	D00             	D01             	100.00    	0.016     	0         	0         	0         	0         
+152             	D01             	D02             	100.00    	0.016     	0         	0         	0         	0         
+153             	D02             	D03             	100.00    	0.016     	0         	0         	0         	0         
+154             	D03             	D04             	100.00    	0.016     	0         	0         	0         	0         
+155             	D04             	D05             	100.00    	0.016     	0         	0         	0         	0         
+156             	D05             	D06             	100.00    	0.016     	0         	0         	0         	0         
+157             	D06             	D07             	100.00    	0.016     	0         	0         	0         	0         
+158             	D07             	D08             	100.00    	0.016     	0         	0         	0         	0         
+159             	D08             	D09             	100.00    	0.016     	0         	0         	0         	0         
+160             	D09             	D10             	100.00    	0.016     	0         	0         	0         	0         
+161             	E00             	E01             	100.00    	0.016     	0         	0         	0         	0         
+162             	E01             	E02             	100.00    	0.016     	0         	0         	0         	0         
+163             	E02             	E03             	100.00    	0.016     	0         	0         	0         	0         
+164             	E03             	E04             	100.00    	0.016     	0         	0         	0         	0         
+165             	E04             	E05             	100.00    	0.016     	0         	0         	0         	0         
+166             	E05             	E06             	100.00    	0.016     	0         	0         	0         	0         
+171             	F00             	F01             	100.00    	0.016     	0         	0         	0         	0         
+172             	F01             	F02             	100.00    	0.016     	0         	0         	0         	0         
+173             	F02             	F03             	100.00    	0.016     	0         	0         	0         	0         
+174             	F03             	F04             	100.00    	0.016     	0         	0         	0         	0         
+175             	F04             	F05             	100.00    	0.016     	0         	0         	0         	0         
+176             	F05             	F06             	100.00    	0.016     	0         	0         	0         	0         
+177             	F06             	F07             	100.00    	0.016     	0         	0         	0         	0         
+178             	F07             	F08             	100.00    	0.016     	0         	0         	0         	0         
+179             	F08             	F09             	100.00    	0.016     	0         	0         	0         	0         
+180             	F09             	F10             	100.00    	0.016     	0         	0         	0         	0         
+181             	G00             	G01             	100.00    	0.016     	0         	0         	0         	0         
+182             	G01             	G02             	100.00    	0.016     	0         	0         	0         	0         
+183             	G02             	G03             	100.00    	0.016     	0         	0         	0         	0         
+184             	G03             	G04             	100.00    	0.016     	0         	0         	0         	0         
+185             	G04             	G05             	100.00    	0.016     	0         	0         	0         	0         
+186             	G05             	G06             	100.00    	0.016     	0         	0         	0         	0         
+187             	G06             	G07             	100.00    	0.016     	0         	0         	0         	0         
+188             	G07             	G08             	100.00    	0.016     	0         	0         	0         	0         
+189             	G08             	G09             	100.00    	0.016     	0         	0         	0         	0         
+190             	G09             	G10             	100.00    	0.016     	0         	0         	0         	0         
+191             	H00             	H01             	100.00    	0.016     	0         	0         	0         	0         
+192             	H01             	H02             	100.00    	0.016     	0         	0         	0         	0         
+193             	H02             	H03             	100.00    	0.016     	0         	0         	0         	0         
+194             	H03             	H04             	100.00    	0.016     	0         	0         	0         	0         
+195             	H04             	H05             	100.00    	0.016     	0         	0         	0         	0         
+196             	H05             	H06             	100.00    	0.016     	0         	0         	0         	0         
+197             	H06             	H07             	100.00    	0.016     	0         	0         	0         	0         
+198             	H07             	H08             	100.00    	0.016     	0         	0         	0         	0         
+199             	H08             	H09             	100.00    	0.016     	0         	0         	0         	0         
+200             	H09             	H10             	100.00    	0.016     	0         	0         	0         	0         
+201             	I00             	I01             	100.00    	0.016     	0         	0         	0         	0         
+202             	I01             	I02             	100.00    	0.016     	0         	0         	0         	0         
+203             	I02             	I03             	100.00    	0.016     	0         	0         	0         	0         
+204             	I03             	I04             	100.00    	0.016     	0         	0         	0         	0         
+205             	I04             	I05             	100.00    	0.016     	0         	0         	0         	0         
+206             	I05             	I06             	100.00    	0.016     	0         	0         	0         	0         
+207             	I06             	I07             	100.00    	0.016     	0         	0         	0         	0         
+208             	I07             	I08             	100.00    	0.016     	0         	0         	0         	0         
+209             	I08             	I09             	100.00    	0.016     	0         	0         	0         	0         
+210             	I09             	I10             	100.00    	0.016     	0         	0         	0         	0         
+211             	J00             	J01             	100.00    	0.016     	0         	0         	0         	0         
+212             	J01             	J02             	100.00    	0.016     	0         	0         	0         	0         
+213             	J02             	J03             	100.00    	0.016     	0         	0         	0         	0         
+214             	J03             	J04             	100.00    	0.016     	0         	0         	0         	0         
+215             	J04             	J05             	100.00    	0.016     	0         	0         	0         	0         
+216             	J05             	J06             	100.00    	0.016     	0         	0         	0         	0         
+217             	J06             	J07             	100.00    	0.016     	0         	0         	0         	0         
+218             	J07             	J08             	100.00    	0.016     	0         	0         	0         	0         
+219             	J08             	J09             	100.00    	0.016     	0         	0         	0         	0         
+220             	J09             	J10             	100.00    	0.016     	0         	0         	0         	0         
+221             	K00             	K01             	100.00    	0.016     	0         	0         	0         	0         
+222             	K01             	K02             	100.00    	0.016     	0         	0         	0         	0         
+223             	K02             	K03             	100.00    	0.016     	0         	0         	0         	0         
+224             	K03             	K04             	100.00    	0.016     	0         	0         	0         	0         
+225             	K04             	K05             	100.00    	0.016     	0         	0         	0         	0         
+226             	K05             	K06             	100.00    	0.016     	0         	0         	0         	0         
+227             	K06             	K07             	100.00    	0.016     	0         	0         	0         	0         
+228             	K07             	K08             	100.00    	0.016     	0         	0         	0         	0         
+229             	K08             	K09             	100.00    	0.016     	0         	0         	0         	0         
+230             	K09             	K10             	100.00    	0.016     	0         	0         	0         	0         
+231             	A10             	B10             	100.00    	0.016     	0         	0         	0         	0         
+232             	B10             	C10             	100.00    	0.016     	0         	0         	0         	0         
+233             	C10             	D10             	100.00    	0.016     	0         	0         	0         	0         
+234             	D10             	E10             	100.00    	0.016     	0         	0         	0         	0         
+235             	E10             	F10             	100.00    	0.016     	0         	0         	0         	0         
+236             	F10             	G10             	100.00    	0.016     	0         	0         	0         	0         
+237             	G10             	H10             	100.00    	0.016     	0         	0         	0         	0         
+238             	H10             	I10             	100.00    	0.016     	0         	0         	0         	0         
+239             	I10             	J10             	100.00    	0.016     	0         	0         	0         	0         
+240             	J10             	K10             	100.00    	0.016     	0         	0         	0         	0         
+241             	K10             	Outfall         	100.00    	0.016     	0         	0         	0         	0         
+
+[XSECTIONS]
+;;Link          	Shape       	Geom1           	Geom2     	Geom3     	Geom4     	Barrels   	Culvert   
+;;--------------	------------	----------------	----------	----------	----------	----------	----------
+100             	CIRCULAR    	1               	0         	0         	0         	1         	          
+101             	CIRCULAR    	1               	0         	0         	0         	1         	          
+102             	CIRCULAR    	1               	0         	0         	0         	1         	          
+103             	CIRCULAR    	1               	0         	0         	0         	1         	          
+121             	CIRCULAR    	1               	0         	0         	0         	1         	          
+122             	CIRCULAR    	1               	0         	0         	0         	1         	          
+123             	CIRCULAR    	1               	0         	0         	0         	1         	          
+124             	CIRCULAR    	1               	0         	0         	0         	1         	          
+125             	CIRCULAR    	1               	0         	0         	0         	1         	          
+126             	CIRCULAR    	1               	0         	0         	0         	1         	          
+127             	CIRCULAR    	1               	0         	0         	0         	1         	          
+128             	CIRCULAR    	1               	0         	0         	0         	1         	          
+129             	CIRCULAR    	1               	0         	0         	0         	1         	          
+130             	CIRCULAR    	1               	0         	0         	0         	1         	          
+131             	CIRCULAR    	1               	0         	0         	0         	1         	          
+132             	CIRCULAR    	1               	0         	0         	0         	1         	          
+133             	CIRCULAR    	1               	0         	0         	0         	1         	          
+134             	CIRCULAR    	1               	0         	0         	0         	1         	          
+135             	CIRCULAR    	1               	0         	0         	0         	1         	          
+136             	CIRCULAR    	1               	0         	0         	0         	1         	          
+137             	CIRCULAR    	1               	0         	0         	0         	1         	          
+138             	CIRCULAR    	1               	0         	0         	0         	1         	          
+139             	CIRCULAR    	1               	0         	0         	0         	1         	          
+140             	CIRCULAR    	1               	0         	0         	0         	1         	          
+141             	CIRCULAR    	1               	0         	0         	0         	1         	          
+142             	CIRCULAR    	1               	0         	0         	0         	1         	          
+143             	CIRCULAR    	1               	0         	0         	0         	1         	          
+144             	CIRCULAR    	1               	0         	0         	0         	1         	          
+145             	CIRCULAR    	1               	0         	0         	0         	1         	          
+146             	CIRCULAR    	1               	0         	0         	0         	1         	          
+147             	CIRCULAR    	1               	0         	0         	0         	1         	          
+148             	CIRCULAR    	1               	0         	0         	0         	1         	          
+149             	CIRCULAR    	1               	0         	0         	0         	1         	          
+150             	CIRCULAR    	1               	0         	0         	0         	1         	          
+151             	CIRCULAR    	1               	0         	0         	0         	1         	          
+152             	CIRCULAR    	1               	0         	0         	0         	1         	          
+153             	CIRCULAR    	1               	0         	0         	0         	1         	          
+154             	CIRCULAR    	1               	0         	0         	0         	1         	          
+155             	CIRCULAR    	1               	0         	0         	0         	1         	          
+156             	CIRCULAR    	1               	0         	0         	0         	1         	          
+157             	CIRCULAR    	1               	0         	0         	0         	1         	          
+158             	CIRCULAR    	1               	0         	0         	0         	1         	          
+159             	CIRCULAR    	1               	0         	0         	0         	1         	          
+160             	CIRCULAR    	1               	0         	0         	0         	1         	          
+161             	CIRCULAR    	1               	0         	0         	0         	1         	          
+162             	CIRCULAR    	1               	0         	0         	0         	1         	          
+163             	CIRCULAR    	1               	0         	0         	0         	1         	          
+164             	CIRCULAR    	1               	0         	0         	0         	1         	          
+165             	CIRCULAR    	1               	0         	0         	0         	1         	          
+166             	CIRCULAR    	1               	0         	0         	0         	1         	          
+171             	CIRCULAR    	1               	0         	0         	0         	1         	          
+172             	CIRCULAR    	1               	0         	0         	0         	1         	          
+173             	CIRCULAR    	1               	0         	0         	0         	1         	          
+174             	CIRCULAR    	1               	0         	0         	0         	1         	          
+175             	CIRCULAR    	1               	0         	0         	0         	1         	          
+176             	CIRCULAR    	1               	0         	0         	0         	1         	          
+177             	CIRCULAR    	1               	0         	0         	0         	1         	          
+178             	CIRCULAR    	1               	0         	0         	0         	1         	          
+179             	CIRCULAR    	1               	0         	0         	0         	1         	          
+180             	CIRCULAR    	1               	0         	0         	0         	1         	          
+181             	CIRCULAR    	1               	0         	0         	0         	1         	          
+182             	CIRCULAR    	1               	0         	0         	0         	1         	          
+183             	CIRCULAR    	1               	0         	0         	0         	1         	          
+184             	CIRCULAR    	1               	0         	0         	0         	1         	          
+185             	CIRCULAR    	1               	0         	0         	0         	1         	          
+186             	CIRCULAR    	1               	0         	0         	0         	1         	          
+187             	CIRCULAR    	1               	0         	0         	0         	1         	          
+188             	CIRCULAR    	1               	0         	0         	0         	1         	          
+189             	CIRCULAR    	1               	0         	0         	0         	1         	          
+190             	CIRCULAR    	1               	0         	0         	0         	1         	          
+191             	CIRCULAR    	1               	0         	0         	0         	1         	          
+192             	CIRCULAR    	1               	0         	0         	0         	1         	          
+193             	CIRCULAR    	1               	0         	0         	0         	1         	          
+194             	CIRCULAR    	1               	0         	0         	0         	1         	          
+195             	CIRCULAR    	1               	0         	0         	0         	1         	          
+196             	CIRCULAR    	1               	0         	0         	0         	1         	          
+197             	CIRCULAR    	1               	0         	0         	0         	1         	          
+198             	CIRCULAR    	1               	0         	0         	0         	1         	          
+199             	CIRCULAR    	1               	0         	0         	0         	1         	          
+200             	CIRCULAR    	1               	0         	0         	0         	1         	          
+201             	CIRCULAR    	1               	0         	0         	0         	1         	          
+202             	CIRCULAR    	1               	0         	0         	0         	1         	          
+203             	CIRCULAR    	1               	0         	0         	0         	1         	          
+204             	CIRCULAR    	1               	0         	0         	0         	1         	          
+205             	CIRCULAR    	1               	0         	0         	0         	1         	          
+206             	CIRCULAR    	1               	0         	0         	0         	1         	          
+207             	CIRCULAR    	1               	0         	0         	0         	1         	          
+208             	CIRCULAR    	1               	0         	0         	0         	1         	          
+209             	CIRCULAR    	1               	0         	0         	0         	1         	          
+210             	CIRCULAR    	1               	0         	0         	0         	1         	          
+211             	CIRCULAR    	1               	0         	0         	0         	1         	          
+212             	CIRCULAR    	1               	0         	0         	0         	1         	          
+213             	CIRCULAR    	1               	0         	0         	0         	1         	          
+214             	CIRCULAR    	1               	0         	0         	0         	1         	          
+215             	CIRCULAR    	1               	0         	0         	0         	1         	          
+216             	CIRCULAR    	1               	0         	0         	0         	1         	          
+217             	CIRCULAR    	1               	0         	0         	0         	1         	          
+218             	CIRCULAR    	1               	0         	0         	0         	1         	          
+219             	CIRCULAR    	1               	0         	0         	0         	1         	          
+220             	CIRCULAR    	1               	0         	0         	0         	1         	          
+221             	CIRCULAR    	1               	0         	0         	0         	1         	          
+222             	CIRCULAR    	1               	0         	0         	0         	1         	          
+223             	CIRCULAR    	1               	0         	0         	0         	1         	          
+224             	CIRCULAR    	1               	0         	0         	0         	1         	          
+225             	CIRCULAR    	1               	0         	0         	0         	1         	          
+226             	CIRCULAR    	1               	0         	0         	0         	1         	          
+227             	CIRCULAR    	1               	0         	0         	0         	1         	          
+228             	CIRCULAR    	1               	0         	0         	0         	1         	          
+229             	CIRCULAR    	1               	0         	0         	0         	1         	          
+230             	CIRCULAR    	1               	0         	0         	0         	1         	          
+231             	CIRCULAR    	1               	0         	0         	0         	1         	          
+232             	CIRCULAR    	1               	0         	0         	0         	1         	          
+233             	CIRCULAR    	1               	0         	0         	0         	1         	          
+234             	CIRCULAR    	1               	0         	0         	0         	1         	          
+235             	CIRCULAR    	1               	0         	0         	0         	1         	          
+236             	CIRCULAR    	1               	0         	0         	0         	1         	          
+237             	CIRCULAR    	1               	0         	0         	0         	1         	          
+238             	CIRCULAR    	1               	0         	0         	0         	1         	          
+239             	CIRCULAR    	1               	0         	0         	0         	1         	          
+240             	CIRCULAR    	1               	0         	0         	0         	1         	          
+241             	CIRCULAR    	1               	0         	0         	0         	1         	          
+
+[INFLOWS]
+;;Node          	Constituent     	Time Series     	Type    	Mfactor 	Sfactor 	Baseline	Pattern
+;;--------------	----------------	----------------	--------	--------	--------	--------	--------
+A00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+A10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+B10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+C10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+D10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+E10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+F10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+G10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+H10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+I10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+J10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K00             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K01             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K02             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K03             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K04             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K05             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K06             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K07             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K08             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K09             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+K10             	FLOW            	LowPassFilterResearch	FLOW    	1.0     	1.0     	        
+
+[TIMESERIES]
+;;Name          	Date      	Time      	Value     
+;;--------------	----------	----------	----------
+LowPassFilterResearch	          	0:00      	0.017375  
+LowPassFilterResearch	          	6:00      	0.017375  
+
+
+[REPORT]
+;;Reporting Options
+SUBCATCHMENTS	ALL
+NODES	ALL
+LINKS	ALL
+
+[TAGS]
+
+[MAP]
+DIMENSIONS	0.000	0.000	10000.000	10000.000
+Units     	None
+
+[COORDINATES]
+;;Node          	X-Coord           	Y-Coord           
+;;--------------	------------------	------------------
+A00             	2000.000          	2600.000          
+A01             	2000.000          	2500.000          
+A02             	2000.000          	2400.000          
+A03             	2000.000          	2300.000          
+A04             	2000.000          	2200.000          
+A05             	2000.000          	2100.000          
+A06             	2000.000          	2000.000          
+A07             	2000.000          	1900.000          
+A08             	2000.000          	1800.000          
+A09             	2000.000          	1700.000          
+A10             	2000.000          	1600.000          
+B00             	2100.000          	2600.000          
+B01             	2100.000          	2500.000          
+B02             	2100.000          	2400.000          
+B03             	2100.000          	2300.000          
+B04             	2100.000          	2200.000          
+B05             	2100.000          	2100.000          
+B06             	2100.000          	2000.000          
+B07             	2100.000          	1900.000          
+B08             	2100.000          	1800.000          
+B09             	2100.000          	1700.000          
+B10             	2100.000          	1600.000          
+C00             	2200.000          	2600.000          
+C01             	2200.000          	2500.000          
+C02             	2200.000          	2400.000          
+C03             	2200.000          	2300.000          
+C04             	2200.000          	2200.000          
+C05             	2200.000          	2100.000          
+C06             	2200.000          	2000.000          
+C07             	2200.000          	1900.000          
+C08             	2200.000          	1800.000          
+C09             	2200.000          	1700.000          
+C10             	2200.000          	1600.000          
+D00             	2300.000          	2600.000          
+D01             	2300.000          	2500.000          
+D02             	2300.000          	2400.000          
+D03             	2300.000          	2300.000          
+D04             	2300.000          	2200.000          
+D05             	2300.000          	2100.000          
+D06             	2300.000          	2000.000          
+D07             	2300.000          	1900.000          
+D08             	2300.000          	1800.000          
+D09             	2300.000          	1700.000          
+D10             	2300.000          	1600.000          
+E00             	2400.000          	2600.000          
+E01             	2400.000          	2500.000          
+E02             	2400.000          	2400.000          
+E03             	2400.000          	2300.000          
+E04             	2400.000          	2200.000          
+E05             	2400.000          	2100.000          
+E06             	2400.000          	2000.000          
+E07             	2400.000          	1900.000          
+E08             	2400.000          	1800.000          
+E09             	2400.000          	1700.000          
+E10             	2400.000          	1600.000          
+F00             	2500.000          	2600.000          
+F01             	2500.000          	2500.000          
+F02             	2500.000          	2400.000          
+F03             	2500.000          	2300.000          
+F04             	2500.000          	2200.000          
+F05             	2500.000          	2100.000          
+F06             	2500.000          	2000.000          
+F07             	2500.000          	1900.000          
+F08             	2500.000          	1800.000          
+F09             	2500.000          	1700.000          
+F10             	2500.000          	1600.000          
+G00             	2600.000          	2600.000          
+G01             	2600.000          	2500.000          
+G02             	2600.000          	2400.000          
+G03             	2600.000          	2300.000          
+G04             	2600.000          	2200.000          
+G05             	2600.000          	2100.000          
+G06             	2600.000          	2000.000          
+G07             	2600.000          	1900.000          
+G08             	2600.000          	1800.000          
+G09             	2600.000          	1700.000          
+G10             	2600.000          	1600.000          
+H00             	2700.000          	2600.000          
+H01             	2700.000          	2500.000          
+H02             	2700.000          	2400.000          
+H03             	2700.000          	2300.000          
+H04             	2700.000          	2200.000          
+H05             	2700.000          	2100.000          
+H06             	2700.000          	2000.000          
+H07             	2700.000          	1900.000          
+H08             	2700.000          	1800.000          
+H09             	2700.000          	1700.000          
+H10             	2700.000          	1600.000          
+I00             	2800.000          	2600.000          
+I01             	2800.000          	2500.000          
+I02             	2800.000          	2400.000          
+I03             	2800.000          	2300.000          
+I04             	2800.000          	2200.000          
+I05             	2800.000          	2100.000          
+I06             	2800.000          	2000.000          
+I07             	2800.000          	1900.000          
+I08             	2800.000          	1800.000          
+I09             	2800.000          	1700.000          
+I10             	2800.000          	1600.000          
+J00             	2900.000          	2600.000          
+J01             	2900.000          	2500.000          
+J02             	2900.000          	2400.000          
+J03             	2900.000          	2300.000          
+J04             	2900.000          	2200.000          
+J05             	2900.000          	2100.000          
+J06             	2900.000          	2000.000          
+J07             	2900.000          	1900.000          
+J08             	2900.000          	1800.000          
+J09             	2900.000          	1700.000          
+J10             	2900.000          	1600.000          
+K00             	3000.000          	2600.000          
+K01             	3000.000          	2500.000          
+K02             	3000.000          	2400.000          
+K03             	3000.000          	2300.000          
+K04             	3000.000          	2200.000          
+K05             	3000.000          	2100.000          
+K06             	3000.000          	2000.000          
+K07             	3000.000          	1900.000          
+K08             	3000.000          	1800.000          
+K09             	3000.000          	1700.000          
+K10             	3000.000          	1600.000          
+Outfall         	3070.710          	1529.290          
+
+[VERTICES]
+;;Link          	X-Coord           	Y-Coord           
+;;--------------	------------------	------------------
+
